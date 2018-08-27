@@ -1,0 +1,152 @@
+:root {
+font-size : 16px
+		}
+
+body{
+margin =0;
+padding =0;
+}	
+
+.container {
+display :flex ;
+margin :5vw;
+flex-direction : column;
+
+}
+#scroll{
+	color : DF1E6B;
+	font-weight :900;
+	font-stretch :expanded
+}
+.heading-font{
+	font-size: 2.5rem;
+	font-style :oblique;
+	border-box : 1.5px solid blue;
+	border-radius :2px;
+	 box-shadow : 0px 0px 5px 8px #808080; 
+	 width :15.5vw;
+	 background-image: linear-gradient(red, yellow);
+
+	/* box-sizing : border-box; */
+}
+#heading-technology
+{
+	font-size: 2.5rem;
+	font-style : italic;
+	background-color : #1EDF32;
+	width : 35vw
+}
+.row {
+  display: flex;
+  margin-top: 5vh; 
+  flex-direction :row
+  }
+
+  .row .my-image {
+    border: 1.5px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #C0C0C0;
+    width: 20vw;
+     float: right	;
+  }
+ .row .tech-image {
+    border: 1.5px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #EE8BF2;
+    width: 5vw;
+	height :7vw;
+	float : left;
+  }
+
+
+.paragraph {
+   float: left; 
+  color: #2b9fbf;
+  font-family: "Istok Web", sans-serif;
+  width: 60%;
+  font-size : 1.5rem
+}
+
+
+.experience{
+
+}
+	
+.topnav {
+display :flex;
+flex-direction :row;
+	overflow: hidden;
+  background-color : #A2C710;
+  float: right;
+  color: #6C7548;
+  text-align: left;
+  text-decoration: none;
+  font-size: 2rem;
+  width :100%;
+
+  }
+
+ a {
+   color: #1721AE;
+
+  }
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .search {
+  float :right;
+  right=0;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+	
+ 
+  
+  @media only screen and (max-width :720px)
+{
+ .row{
+		flex-direction :column ;
+
+	}
+	.row .image{
+		order :-1;	
+		padding-bottom : 3vw
+	}
+	.paragraph {
+		width :60%
+	}
+	.row .my-image {
+		width: 50vw
+	}
+	 .row .tech-image {
+	    width: 10vw;
+	height :12vw;
+	}
+	#heading-technology
+	{
+		width: 75vw;
+	}
+	.heading-font
+	{
+		width : 60vw
+	}
+	.topnav  {
+		flex-direction :column;
+		flex-wrap : wrap;
+		}
+
+}
