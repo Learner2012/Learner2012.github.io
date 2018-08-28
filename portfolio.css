@@ -90,6 +90,14 @@ flex-direction :row;
    color: #1721AE;
 
   }
+  
+  a:hover {
+	  color :pink;
+  }
+  
+  a:visited {
+	  color :#f2434f;
+  }
 
 .topnav a:hover {
   background-color: #ddd;
@@ -113,8 +121,6 @@ flex-direction :row;
   cursor: pointer;
 }
 
-	
- 
   
   @media only screen and (max-width :720px)
 {
